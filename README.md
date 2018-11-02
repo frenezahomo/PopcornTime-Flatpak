@@ -38,5 +38,5 @@ cd ./popcorntime-flatpak
 
 6 - Build & Install the Flatpak package
 ```
-flatpak-builder --install stremio sh.popcorntime.PopcornTime.yml
+flatpak-builder --install popcorntime sh.popcorntime.PopcornTime.yml
 ```
