@@ -1,4 +1,4 @@
-# stremio-flatpak
+# PopcornTime-flatpak
 PopcornTime Flatpak package (unoffical)
 
 ## TODO:
