@@ -1,12 +1,10 @@
 # stremio-flatpak
-Stremio Flatpak package (WIP)
+PopcornTime Flatpak package (unoffical)
 
 ## TODO:
-- [ ] Add tray icon support on old distro
-- [ ] Add an AppData file
-- [ ] Bundle a higher resolution icon
 - [ ] Contact upstream to use it as an official distribution system
-- [ ] The application keeps running on the background when you close it (tray icon is hidden)
+- [ ] Get a dynamic mirror link instead of "mirror03.popcorntime.sh"
+- [ ] Looking for a way to allow external players (might not be possible with flatpak)
 
 
 ## How to build:
@@ -34,11 +32,11 @@ flatpak install flathub org.electronjs.Electron2.BaseApp//stable
 5 - Clone the repository
 
 ```
-git clone --recurse-submodules https://github.com/bilelmoussaoui/stremio-flatpak/
-cd ./stremio-flatpak
+git clone --recurse-submodules https://gitlab.com/Preisschild/popcorntime-flatpak
+cd ./popcorntime-flatpak
 ``` 
 
-6 - Build & Install Stremio's Flatpak package
+6 - Build & Install the Flatpak package
 ```
-flatpak-builder --install stremio com.stremio.Stremio.yml
+flatpak-builder --install stremio sh.popcorntime.PopcornTime.yml
 ```
