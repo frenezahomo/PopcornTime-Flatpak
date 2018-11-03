@@ -19,7 +19,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 3 - Clone the repository
 
 ```
-git clone --recurse-submodules https://gitlab.com/Preisschild/popcorntime-flatpak
+git clone https://gitlab.com/Preisschild/popcorntime-flatpak
 cd ./popcorntime-flatpak
 ``` 
 
