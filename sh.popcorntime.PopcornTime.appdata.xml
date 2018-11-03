@@ -1,11 +1,13 @@
-
+<!-- Copyright 2018 Ströger Florian -->
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>sh.popcorntime.PopcornTime.desktop</id>
-  <metadata_license>GPL-3.0</metadata_license>
+  <metadata_license>GFDL-1.3</metadata_license>
   <project_license>GPL-3.0</project_license>
   <name>PopcornTimer</name>
   <summary>Watch Movies and TV Shows instantly</summary>
+  ​<translation type="gettext">PopcornTime</translation>
+  <update_contact>preisschild_AT_protonmail.com</update_contact>
   <description>
     <p>
         Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.
@@ -15,7 +17,9 @@
   </description>
   <url type="homepage">https://popcorntime.sh/</url>
   <screenshots>
-    <screenshot type="default">https://cloud.githubusercontent.com/assets/8317250/10714437/b1e1dc8c-7b32-11e5-9c25-d9fbd5b2f3bd.png</screenshot>
+    <screenshot type="default">https://i.imgur.com/UtKMSso.jpg</screenshot>
+    <screenshot>https://i.imgur.com/7MRrqjV.jpg</screenshot>
+    <screenshot>https://i.imgur.com/1NrtHBj.png</screenshot>    
   </screenshots>
   <releases>
     <release version="0.3.10" date="2018-05-14"/>
