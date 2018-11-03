@@ -10,10 +10,9 @@ separate-locales: false
 finish-args:
 - --share=ipc
 - --share=network
-- --device=all
 - --socket=x11
 - --socket=pulseaudio
-- --filesystem=home
+- --filesystem=home:ro
 - --talk-name=org.freedesktop.Notifications
 modules:
 - shared-modules/gtk2/gtk2.json
