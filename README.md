@@ -15,27 +15,15 @@ PopcornTime Flatpak package (unoffical)
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
-3 - Install freedesktop's runtime
 
-```bash
-flatpak install flathub org.freedesktop.Platform//18.08
-flatpak install flathub org.freedesktop.Sdk//18.08
-```
-
-4 - Install Electron's BaseApp
-
-```
-flatpak install flathub io.atom.electron.BaseApp/x86_64/18.08
-```
-
-5 - Clone the repository
+3 - Clone the repository
 
 ```
 git clone --recurse-submodules https://gitlab.com/Preisschild/popcorntime-flatpak
 cd ./popcorntime-flatpak
 ``` 
 
-6 - Build & Install the Flatpak package
+4 - Build & Install the Flatpak package
 ```
-flatpak-builder --install popcorntime sh.popcorntime.PopcornTime.yml
+flatpak-builder --install --install-deps-from=flathub popcorntime sh.popcorntime.PopcornTime.yml
 ```
