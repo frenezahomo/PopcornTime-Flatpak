@@ -3,7 +3,6 @@ PopcornTime Flatpak package (unoffical)
 
 ## TODO:
 - [ ] Contact upstream to use it as an official distribution system
-- [ ] Get a dynamic mirror link instead of "mirror03.popcorntime.sh"
 - [ ] Looking for a way to allow external players (might not be possible with flatpak)
 
 
