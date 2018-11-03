@@ -25,7 +25,7 @@ flatpak install flathub org.freedesktop.Sdk//18.08
 4 - Install Electron's BaseApp
 
 ```
-flatpak install flathub org.electronjs.Electron2.BaseApp//stable
+flatpak install flathub io.atom.electron.BaseApp/x86_64/18.08
 ```
 
 5 - Clone the repository
