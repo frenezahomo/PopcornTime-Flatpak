@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>sh.popcorntime.PopcornTime.desktop</id>
+  <metadata_license>GPL-3.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <name>PopcornTimer</name>
+  <summary>Watch Movies and TV Shows instantly</summary>
+  <description>
+    <p>
+        Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.
+        The applications provide a free alternative to subscription-based video streaming services such as Netflix. 
+        Popcorn Time uses sequential downloading to stream video listed by several torrent websites, and third party trackers can also be added manually.
+    </p>
+  </description>
+  <url type="homepage">https://popcorntime.sh/</url>
+  <screenshots>
+    <screenshot type="default">https://cloud.githubusercontent.com/assets/8317250/10714437/b1e1dc8c-7b32-11e5-9c25-d9fbd5b2f3bd.png</screenshot>
+  </screenshots>
+  <releases>
+    <release version="0.3.10" date="2018-05-14"/>
+  </releases>
+</component>
