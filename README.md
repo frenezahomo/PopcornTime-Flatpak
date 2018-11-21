@@ -3,7 +3,8 @@ PopcornTime Flatpak package (unoffical)
 
 ## TODO:
 - [ ] Contact upstream to use it as an official distribution system
-- [ ] Looking for a way to allow external players (might not be possible with flatpak)
+- [ ] Looking for a way to allow external players (maybe add patch to use xdg-open)
+- [ ] Update to CI Build #286
 
 
 ## How to build:
