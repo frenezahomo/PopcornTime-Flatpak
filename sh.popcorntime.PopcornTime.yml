@@ -24,7 +24,7 @@ modules:
     only-arches:
     - x86_64
     url: https://ci.popcorntime.sh/job/Popcorn-Time-Desktop/lastBuild/artifact/build/Popcorn-Time-0.3.10_linux64.tar.xz
-    sha256: a8419314601e329db1d486f98f2762108860fb44b26a915d91005cd6ee2f66b5
+    sha256: f67e8d8de20f6a31e938bd1bdc0b92f0728d12d75d466774dac9bd441049723d
   - type: script
     dest-filename: popcorntime-wrapper
     commands:
