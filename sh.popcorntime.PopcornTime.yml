@@ -23,15 +23,15 @@ modules:
   - type: file
     only-arches:
     - x86_64
-    url: https://ci.popcorntime.sh/job/Popcorn-Time-Desktop/lastBuild/artifact/build/Popcorn-Time-0.3.10_linux64.tar.xz
-    sha256: 29beb00d5b53629a80fd8bdf6edda3b60d3edadb1573218d381319dbe1e30132
+    url: https://get.popcorntime.sh/build/Popcorn-Time-0.3.10-Linux-64.tar.xz
+    sha256: b7f789c2e2f3b0f7e3408a437080404f8a2aa7ce4a41858cf891b02cda8c37a5
   - type: script
     dest-filename: popcorntime-wrapper
     commands:
     - exec /app/popcorntime/Popcorn-Time
   build-commands:
   - install -d /app/popcorntime
-  - tar -xvf Popcorn-Time-0.3.10_linux64.tar.xz -C /app/popcorntime
+  - tar -xvf Popcorn-Time-0.3.10-Linux-64.tar.xz -C /app/popcorntime
   - install popcorntime-wrapper /app/bin/
   - install -d /app/share/icons/hicolor/256x256/apps/
   - install /app/popcorntime/src/app/images/icon.png /app/share/icons/hicolor/256x256/apps/sh.popcorntime.PopcornTime.png
